@@ -1,0 +1,162 @@
+*{margin: 0;
+padding: 0;}
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px 10%;
+    background: rgb(255, 255, 255,0.3);
+}
+.logo h1{
+   color: white;
+   letter-spacing:  0px;
+   font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+
+
+}
+.banner{
+    width: 105%;
+}
+.banner img{
+    width: 105%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.banner-text {
+
+}
+
+#about{
+    width: auto;
+    display: flex;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.title h3{
+    text-align: center;
+    font-size: 45px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30;
+    margin: 0 20px 0 20px;
+    color: darkslategrey;
+}
+.title .line{
+    width: 60px;
+    height: 4px;
+    background: black;
+    margin-top: 30;
+
+}
+.about-text p{
+    line-height: 1.8;
+    text-indent: 2em;
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: lightslategrey;
+
+}
+
+#work ul{
+   display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+#work ul li{
+    list-style: none;
+    width:  60%;
+}
+#work ul li img{
+    width: 100%;
+    margin-left: 160px;
+}
+#work ul li p{
+    padding: 15px ;
+    width: 95%;
+    font-size: 16px;
+    color: black;
+    margin-left: 160px;
+    text-align: center;
+    font-weight: bold;
+    background: grey;
+}
+#music{
+    width: 1200px;
+    margin: 30px auto;
+
+}
+#music span{
+    background: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 6px;
+
+}
+#music span:first-child{
+   background: gray;
+   color: #f2f2f2;
+}
+#music span:nth-child(2){
+    background: rgb(21, 174, 245);
+ }
+ #music span:nth-child(3){
+    background: rgb(18, 201, 64);
+ }
+ #music span:last-child{
+    background: rgb(27, 33, 36);
+    color: #f2f2f2;
+ }
+
+.contact{
+    width: 1200px;
+    margin: auto;
+    font-size: 16px;
+   
+}
+.contact input{
+    display: block;
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.contac textarea {
+    padding: 10px;
+    width: 600px;
+    font-size: 16px;
+   
+}
+.contact button{
+    cursor: pointer;
+    display: block;
+    width: 120px;
+    height: 35px;
+    margin-top: 30px;
+    background: green;
+    color: #f2f2f2;
+    font-size: 15px;
+}
+.footer{
+    text-align: center;
+    background: #333;
+    color: #FFF
+}
